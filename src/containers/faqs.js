@@ -10,7 +10,7 @@ function FaqsContainer() {
            {faqsData.map((item) => (
              <Accordian.Item key={item.id}>
                 <Accordian.Header>{item.header}</Accordian.Header>
-                <Accordian.Body>{item.Body}</Accordian.Body>
+                <Accordian.Body>{item.body}</Accordian.Body>
              </Accordian.Item>
            ))}
         </Accordian>
